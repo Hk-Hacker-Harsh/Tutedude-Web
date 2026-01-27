@@ -1,24 +1,39 @@
 const inputField = document.getElementById('phone');
 
+if (inputField.value === "") {
+    inputField.value = "+91 ";
+}
+
 inputField.addEventListener('input', (e) => {
-    let digits = e.target.value.replace(/\D/g, '');
-    
-    digits = digits.substring(0, 12);
-    
-    let formatted = '';
+let value = e.target.value;
 
-    if (digits.length > 0) {
-        formatted = '+';
-
-        if (digits.length <= 2) {
-            formatted += digits;
-        } else if (digits.length <= 7) {
-            formatted += digits.substring(0, 2) + ' ' + digits.substring(2);
-        } else {
-            formatted += digits.substring(0, 2) + ' ' + digits.substring(2, 7) + ' ' + digits.substring(7);
-        }
+    // Ensure it always starts with +91
+    if (!value.startsWith('+91 ')) {
+        value = '+91 ' + value.replace(/^\+91\s?/, '');
     }
+
+    // Extract only the digits AFTER the +91
+    let digits = value.substring(4).replace(/\D/g, '');
+    
+    // Limit to 10 digits
+    digits = digits.substring(0, 10);
+    
+    // 4. Formatting: +91 12345 67890
+    let formatted = '+91 ';
+    if (digits.length > 5) {
+        formatted += digits.substring(0, 5) + ' ' + digits.substring(5);
+    } else {
+        formatted += digits;
+    }
+
     e.target.value = formatted;
+});
+
+// Prevent user from moving cursor or deleting +91 with backspace
+inputField.addEventListener('keydown', (e) => {
+    if (e.target.selectionStart < 4 && (e.key === 'Backspace' || e.key === 'Delete')) {
+        e.preventDefault();
+    }
 });
 
 
