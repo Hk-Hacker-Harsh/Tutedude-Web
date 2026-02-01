@@ -2,6 +2,8 @@
 
 Welcome to my comprehensive web development repository. This project documents my journey from learning frontend fundamentals to building a fully functional, database-driven **E-Commerce Platform**.
 
+![Gif](./ECommerce_Project/Screenshots/gif.gif)
+
 ---
 
 ## 📂 Project Structure
