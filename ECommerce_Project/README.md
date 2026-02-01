@@ -3,6 +3,7 @@
 A custom-built PHP e-commerce system featuring distinct portals for Administrators, Vendors, and Customers. This project serves as a comprehensive demonstration of full-stack PHP development, focusing on session management, secure authentication, and relational database architecture.
 
 ![Gif](./Screenshots/gif.gif)
+<br>
 **Disclaimer : I know putting Server Backend Files and Admin Credentials on Github Publicly can be Dangerous but still i did, removeded DB credentials but if you still got any vulnerability please report to me.**
 
 ## 🚀 Live Demo
