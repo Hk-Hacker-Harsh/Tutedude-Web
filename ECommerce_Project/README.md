@@ -164,13 +164,13 @@ ECommerce_Project
                products.php
 ```
 ## Screenshot
-![Home Page](/Screenshots/4.png)
+![Home Page](Screenshots/4.png)
 
-![Admin Panel](/Screenshots/1.png)
+![Admin Panel](Screenshots/1.png)
 
-![Cart](/Screenshots/2.png)
+![Cart](Screenshots/2.png)
 
-![Checkout](/Screenshots/3.png)
+![Checkout](Screenshots/3.png)
 
 
 
