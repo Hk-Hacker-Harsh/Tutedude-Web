@@ -1,3 +1,7 @@
+### Link : [http://ecoproject.infinityfree.me/](http://ecoproject.infinityfree.me/)
+### Use these <a href=#test-credentials>Credentials</a>
+### Paths available in site <a href=#files>Paths</a>
+
 # Hk Store - Multi-Vendor E-commerce Platform
 
 A custom-built PHP e-commerce system featuring distinct portals for Administrators, Vendors, and Customers. This project serves as a comprehensive demonstration of full-stack PHP development, focusing on session management, secure authentication, and relational database architecture.
@@ -13,7 +17,7 @@ A custom-built PHP e-commerce system featuring distinct portals for Administrato
 
 ---
 
-## 🔑 Test Credentials
+## Test Credentials
 
 You can use the following accounts to test the different access levels and functionalities of the platform.  
 **Default Password for all accounts:** `password`
