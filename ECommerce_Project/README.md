@@ -78,12 +78,12 @@ You can use the following accounts to test the different access levels and funct
 2. **Database Configuration:**
     - Create a MySQL database (e.g., hk_store).
 
-    - Update [db.php](/htdocs/db.php) with your original DataBase Credentials.
+    - Update [db.php](./htdocs/db.php) with your original DataBase Credentials.
 
     - Import the Database&DummyData.sql file to generate tables and dummy data.
 
 3. **Deployment:**
-    - Update Stripe API Key (Secret_key) in [process_checkout.php](/htdocs/process_checkout.php), [process_payment.php](/htdocs/process_payment.php), and [success.php](/htdocs/success.php).
+    - Update Stripe API Key (Secret_key) in [process_checkout.php](./htdocs/process_checkout.php), [process_payment.php](./htdocs/process_payment.php), and [success.php](./htdocs/success.php).
 
     - Move the contents of the htdocs folder to your local server directory (e.g., XAMPP htdocs) or your live hosting public directory.
 
